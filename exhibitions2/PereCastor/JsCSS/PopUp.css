@@ -1,0 +1,15 @@
+/* CSS Document */
+body {
+	height: 100%;
+	background-color: #bd1826;
+    FONT: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	letter-spacing: 0.2em;
+}
+a {color: #e7d9b4; text-decoration: none;}
+div {text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+img {margin-bottom: 5px;}

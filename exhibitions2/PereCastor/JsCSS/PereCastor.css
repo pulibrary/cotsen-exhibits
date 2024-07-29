@@ -1,0 +1,234 @@
+/* CSS Document */
+
+/* Setup: Repeated code per rollover */
+<!--
+#swap01 {
+	background-image:  url(../Images/TN/PC1tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap02 {
+	background-image:  url(../Images/TN/PC2tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap03 {
+	background-image:  url(../Images/TN/PC3tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap04 {
+	background-image:  url(../Images/TN/PC4tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap05 {
+	background-image:  url(../Images/TN/PC5tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap06 {
+	background-image:  url(../Images/TN/PC6tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap07 {
+	background-image:  url(../Images/TN/PC7tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap08 {
+	background-image:  url(../Images/TN/PC8tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap09 {
+	background-image:  url(../Images/TN/PC9tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap10 {
+	background-image:  url(../Images/TN/PC10tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap11 {
+	background-image:  url(../Images/TN/PC11tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap12 {
+	background-image:  url(../Images/TN/PC12tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap13 {
+	background-image:  url(../Images/TN/PC13tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap14 {
+	background-image:  url(../Images/TN/PC14tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap15 {
+	background-image:  url(../Images/TN/PC15tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+
+/* Application: Common Code */
+.rollover { display: block; float: left; margin: 37px 0 0px 9px;} /* Allow setting widths and heights */
+.rollover img { border: 0; } /* only set width and height once */
+.rollover:hover { visibility: visible; /* for IE */ } /* sets any property for the :hover state */
+.rollover:hover img { visibility: hidden; } /* 'rolls over' the image */
+
+html, body {
+    font: 11px/14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #948f82;
+
+}
+img {border: none;}
+a {text-decoration: none;}
+table {
+	border-width: 0 1px 1px;
+	border-style: none solid solid;
+	border-color: #000000;
+	width: 800px;
+	height: 588px;
+	margin: 0px auto;
+	background-color: #5a5a4b;
+	text-align: center;
+	}
+td {padding: 0;}
+#TopBar {
+	font-size: 8px;
+	letter-spacing: 0.4em;
+	vertical-align: bottom;
+	background-color: #000000;
+	position: relative;
+	height: 25px;
+	color: #ed9704;
+	padding: 0 5px 0 10px;
+}
+#TopBar a {color: #ed9704;}
+#TopBarTitle {float: left;}
+#TopBarPU {float: right; margin: 6px 0 0 0;}
+#ChoiceBar {
+	background-color: #bd1826;
+	height: 78px;
+} 
+#ChoiceBarWords  {float: left; background-color: #ee1d44; color: #ffffff; font-size: 9px;
+    margin: 37px 5px 0 0; padding: 24px 1px 3px 1px; letter-spacing: .25em;
+}
+#ChoiceBar a {color: #f5e7c2;}
+
+#content {
+	background: url(../Images/PCbackgroundriver.jpg) top left no-repeat;
+	font: 9px/14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height: 492px;
+	text-align: left;
+	letter-spacing: .12em;
+	color: #e7d9b4;
+}
+
+#contentgroups {float: left;}
+#contentplaced {margin: 30px 0 0 97px;}
+.firstletter {font-size: 24px;}
+
+#content .pictureright {float: right; margin: 0px 120px 5px 0px;}
+#content .pictureright1 {float: right; margin: 0px 160px 20px 0px;}
+#content .pictureright1b {float: right; margin: 0px 70px 0px 0px;}
+#content .picturerightb {float: right; margin: 12px 120px 5px 0px;}
+#content .pictureright2 {float: right; margin: 0px 40px 15px 0px;}
+#content .pictureright6a {float: right; margin: 0px 40px 15px 0px;}
+#content .pictureright6b {float: right; margin: 12px 40px 5px 0px;}
+#content .pictureright6d {float: right; margin: 0px 80px 0px 0px;}
+#content .pictureright6e {float: right; margin: 40px 80px 0px 0px;}
+#content .pictureright9b {float: right; margin: 0px 120px 10px 0px;}
+#content .pictureright10a {float: right; margin: 0px 80px 10px 0px;}
+#content .pictureright4 {float: right; margin: 0px 150px 12px 0px;}
+#content .pictureright11 {float: right; margin: 0px 30px 15px 0px;}
+#content .pictureright12a {float: right; margin: 0px 110px 0px 0px;}
+#content .pictureright14a {float: right; margin: 0px 130px 5px 0px;}
+#content .pictureright14b {float: right; margin: 0px 130px 5px 0px;}
+#content .pictureright15a {float: right; margin: 0px 80px 20px 0px;}
+#content .pictureright15b {float: right; margin: 0px 80px 0px 0px;}
+
+#content .pictureleft {float: left; margin: 0 20px 5px 0px;}
+#content .pictureleft5 {float: left; margin: 0 20px 5px 20px;}
+#content .pictureleft3a {float: left; margin: 20px 20px 5px 0px;}
+#content .pictureleft10 {float: left; margin: 15px 20px 5px 0px;}
+#content p {margin: 0 40px 10px 20px;}
+#content .pictureinfo {   /*font-weight: bold;   */}
+#content .pictureinfo1 {
+	white-space: nowrap; float: left; margin: 10px 0 0 20px;
+	}
+#content .pictureinfo5 {
+	float: right; margin: 10px 30px 0 20px;
+	}
+#content .pictureinfo6 {
+width: 600px;
+	float: left; margin: 05px 35px 0 29px;
+	}
+#content .pictureinfo6a {
+	float: left; margin: 20px 30px 0 10px;
+	}
+#content .pictureinfo14 {
+	  	white-space: nowrap;
+	float: left; margin: 10px 30px 0 20px;
+	}
+#contentplaced a {color: #ede565;}
+.clear {clear: left;}
+#navigation {position: absolute; top: 582px; left: 48%;}
+#navigation1 {position: absolute; top: 582px; left: 50%;}
+#otherexhibits {
+	position: absolute; top: 579px; left: 50%;
+	margin: 0 0 0 214px; 
+	font-size: 9px; letter-spacing: .2em; color: #e6d9b4;
+	white-space: nowrap;
+}
+a.wblink {color: #e6d9b4;}
+a.wblink:hover {color: #f3a267;}
+a.mllink {color: #e6d9b4;}
+a.mllink:hover {color: #a0c2e6;}
+a.cclink {color: #e6d9b4;}
+a.cclink:hover {color: #8b0510;}
+/*  The rest are for the index page only.    */
+#contentindex {
+	background: url(../Images/PCbackground.jpg) top left no-repeat;
+	height: 492px;
+	margin-left: auto; margin-right: auto;
+}
+.contentindexperecastor {margin: 0px 0 0 40px;}
+#contentindex p {text-align: left; margin: 0 0 8px 0;}
+#contentindexcenter a{color: #ede565;}
+#contentindexcenter {
+	margin: 0 auto 0 auto;
+	letter-spacing: .085em;
+	font: 11px/24px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 565px;
+	color: #FCF5E1;}
+#contentindexcopyright {
+	position: relative; top: 419px; right: 346px;
+	font-size: 9px; letter-spacing: .2em; color: #846051;
+	white-space: nowrap;
+}
+.contentindexnote {font-size: 9px;}
+.contentcopyrighttitle {letter-spacing: .25em; font-size: 10px;}
+a.crlink {color: #e7d9b4;}
+#contentcopyright {
+	text-align: left;
+	margin: 30px auto 0 auto;
+	letter-spacing: .085em;
+	font: 11px/24px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 515px;
+	color: #FCF5E1;
+	line-height: 20px;
+}
+#contentcopyright a {color: #846051;}
+#contentcopyright li {list-style: square; margin-bottom: 13px;} 
+-->

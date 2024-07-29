@@ -1,0 +1,16 @@
+/* CSS Document */
+body {
+	height: 100%;
+	background-color: #02525b;
+    FONT: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	letter-spacing: 0.2em;
+}
+a:link {color: #BBBBBB; text-decoration: none;}
+a:visited {color: #BBBBBB; text-decoration: none;}
+div {text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+img {margin-bottom: 5px;}

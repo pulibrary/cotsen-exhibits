@@ -1,0 +1,198 @@
+/* CSS Document */
+
+/* Setup: Repeated code per rollover */
+<!--
+#swap01 {
+	background-image:  url(../Images/TN/K1tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap02 {
+	background-image:  url(../Images/TN/K2tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap03 {
+	background-image:  url(../Images/TN/K3tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap04 {
+	background-image:  url(../Images/TN/K4tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap05 {
+	background-image:  url(../Images/TN/K5tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap06 {
+	background-image:  url(../Images/TN/K6tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap07 {
+	background-image:  url(../Images/TN/K7tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap08 {
+	background-image:  url(../Images/TN/K8tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap09 {
+	background-image:  url(../Images/TN/K9tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap10 {
+	background-image:  url(../Images/TN/K10tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap11 {
+	background-image:  url(../Images/TN/K11tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap12 {
+	background-image:  url(../Images/TN/K12tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap13 {
+	background-image:  url(../Images/TN/K13tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap14 {
+	background-image:  url(../Images/TN/K14tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+#swap15 {
+	background-image:  url(../Images/TN/K15tnb.jpg);    /* rollover state */
+	width: 34px;                    /* image width */
+	height: 34px;                   /* image height */
+}
+
+/* Application: Common Code */
+.rollover { display: block; float: left; margin: 37px 0 0px 11px;} /* Allow setting widths and heights */
+.rollover img { border: 0; } /* only set width and height once */
+.rollover:hover { visibility: visible; /* for IE */ } /* sets any property for the :hover state */
+.rollover:hover img { visibility: hidden; } /* 'rolls over' the image */
+
+html, body {
+    font: 11px/14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #445b82;
+
+}
+img {border: none;}
+a {text-decoration: none;}
+table {
+	border-width: 0 1px 1px;
+	border-style: none solid solid;
+	border-color: #000000;
+	width: 800px;
+	height: 588px;
+	margin: 0px auto;
+	text-align: center;
+	}
+td {padding: 0;}
+#TopBar {
+	font-size: 8px;
+	letter-spacing: 0.4em;
+	vertical-align: bottom;
+	background-color: #000000;
+	position: relative;
+	height: 25px;
+	color: #ed9704;
+	padding: 0 5px 0 10px;
+}
+#TopBar a {color: #ed9704;}
+#TopBarTitle {float: left;}
+#TopBarPU {float: right; margin: 6px 0 0 0;}
+#ChoiceBar {
+	background-color: #1c3661;
+	height: 78px;
+} 
+#ChoiceBarWords  {float: left; background-color: #e9a503; color: #ffffff; font-size: 9px;
+    margin: 37px 0px 0 0; padding: 24px 31px 3px 31px; letter-spacing: .25em;
+}
+#ChoiceBar a {color: #fff0c4;}
+
+#content {
+	background: url(../Images/Kitesbackground.jpg) top left no-repeat;
+	font: 9px/14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height: 492px;
+	text-align: left;
+	letter-spacing: .12em;
+	color: #ffe6a4;
+}
+
+#contentgroups {float: left;}
+#contentplaced {margin: 30px 0 0 88px;}
+.firstletter {font-size: 24px;}
+#content .pictureright {float: right; margin: 0px 40px 5px 0px;}
+#content .pictureright4a {float: right; margin: 0px 140px 5px 0px;}
+#content .pictureright5 {float: right; margin: 0px 130px 5px 0px;}
+#content .pictureright7 {float: right; margin: 0px 170px 5px 0px;}
+#content .pictureright12 {float: right; margin: 0px 100px 5px 0px;}
+#content .pictureleft {float: left; margin: 0 20px 5px 0px;}
+#content .pictureleft5 {float: left; margin: 0 40px 5px 50px;}
+#content .pictureleft6 {float: left; margin: 0 20px 5px 25px;}
+#content .pictureleftbelow {float: left; margin: 10px 20px 5px 0px;}
+#content .pictureleftbelow5 {float: left; margin: 10px 20px 5px 55px;}
+#content .pictureleft5a {float: left; margin: 0 15px 5px 20px;}
+#content p {margin: 0 40px 10px 20px;}
+#content .pictureinfo {font-weight: bold;}
+#content .pictureinfo5 {
+	width: 680px; float: left; margin: 10px 0 0 0px;
+	}
+#contentplaced a {color: #e9a503;}
+#navigation {position: absolute; top: 582px; left: 48%;}
+#navigation1 {position: absolute; top: 582px; left: 50%;}
+#otherexhibits {
+	position: absolute; top: 579px; left: 50%;
+	margin: 0 0 0 170px; 
+	font-size: 9px; letter-spacing: .2em; color: #FDDF94;
+	white-space: nowrap;
+}
+a.wblink {color: #FDDF94;}
+a.wblink:hover {color: #e38c4d;}
+a.cclink {color: #FDDF94;}
+a.cclink:hover {color: #dd9c9c;}
+a.PClink {color: #FDDF94;}
+a.PClink:hover {color: #f9375b;}
+/*  The rest are for the index page only.    */
+#contentindex {
+	background: url(../Images/Kitesbackground.jpg) top left no-repeat;
+	height: 492px;
+	margin-left: auto; margin-right: auto;
+}
+
+#contentindex p {text-align: left;}
+#contentindexcenter a {color: #e9a503;}
+.contentindexkites {margin: 0px 0 0 5px;}
+#contentindexcenter { 
+	margin: 0px auto 0 auto;
+	letter-spacing: .085em;
+	font: 11px/24px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 550px;
+	color: #ffe6a4;}
+.contentcopyrighttitle {letter-spacing: .25em; font-size: 10px;}
+#contentcopyright {
+	text-align: left;
+	margin: 30px auto 0 auto;
+	letter-spacing: .085em;
+	font: 11px/24px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 450px;
+	color: #71560f;
+	line-height: 20px;
+}
+#contentcopyright li {list-style: square; margin-bottom: 13px;}
+-->
